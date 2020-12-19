@@ -1,0 +1,73 @@
+/*==============================================General Body==========================================================================================*/
+body {
+	background: red;
+	font-family: 'Open Sans', sans-serif;
+	color: #ccc;
+  }
+
+
+  /*==============================================Navbar==========================================================================================*/
+.topnav a {
+   
+    float: left;
+    text-align: center;
+    padding: 60px 7px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .topnav {
+	position: relative;
+	background-color: black;
+	overflow: hidden;
+  }
+  
+  
+  
+  .topnav a:hover {
+	background-color: blueviolet;
+	color: black;
+  }
+  
+  
+  .topnav a.active {
+	background-color: grey;
+	color: white;
+  }
+  
+  
+  .topnav-right {
+	float: right;
+  }
+  .topnav a {
+	 
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 60px 7px;
+	  text-decoration: none;
+	  font-size: 30
+	  px;
+	}
+  
+  
+/*============================================== the different Containers (Music,Random sounds,etc)==========================================*/
+
+
+  .container {
+	margin: 0 auto;
+	width: 1157px;
+	background: #111;
+	padding: 20px;
+	border: 1px #222 solid;
+  }
+  /*==============================================Button======================================================================================*/
+  button{
+
+	font-size: 10px;
+	line-height: 20px;
+	min-width: 150px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,red,green);
+
+}
